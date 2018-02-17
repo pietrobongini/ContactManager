@@ -1,7 +1,7 @@
 # ContactManager
 
 This project is an address book manager made with Python. The interface is accomplished entirely with PyQt5.
----
+
 ## implementation
 
 The application consists of 4 different views:
@@ -29,17 +29,14 @@ It's useful to separate the view from the controller with PyQt in two different 
 
 To store the data of the contact we used a sqlite database. Three different tables have been created: one to store the contact data (id, firstname, lastname, telephone, email, url, notes), one to store the tags (tagname) and another to associate a tag to a contact (contact_id, tag) 
 
-Table 1:
 | ID | firstname | lastname | telephone | email | url | notes|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  |  |  |  |  |  |  |
 
-Table 2:
 | tagname |
 | :---: |
 |  |
 
-Table 3:
 | ID | tagname|
 | :---: | :---: | 
 |  |  | 
