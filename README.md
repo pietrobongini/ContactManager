@@ -13,7 +13,7 @@ Fig. 1            |  Fig. 2
 
 Fig. 3            |  Fig. 4
 :-------------------------:|:-------------------------:
-![](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactdetails.png)
- |  ![](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/tagadder.png)
+![](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactdetails.png) |  ![]
+(https://github.com/pietrobongini/ContactManager/blob/master/ui_img/tagadder.png)
 
 
