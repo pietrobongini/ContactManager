@@ -1,6 +1,9 @@
 # ContactManager
 
 This project is an address book manager made with Python. The interface is accomplished entirely with PyQt5.
+---
+## implementation
+
 The application consists of 4 different views:
 - contactadder which allows the user to add a contact (Fig. 1).
 - contactlist which is the main view and displays all the contacts allowing the user to make different search for a specific contact (Fig. 2).
@@ -24,18 +27,40 @@ For each view a controller has been created. The controller are:
 
 It's useful to separate the view from the controller with PyQt in two different python files. In this way, editing the design of the view doesn't coinvolve the editing of the controller.
 
-To store the data of the contact we used a sqlite database. three different tables have been created: one to store the contact data (id, firstname, lastname, telephone, email, url, notes), one to store the tags (tagname) and another to associate a tag to a contact (contact_id, tag) 
+To store the data of the contact we used a sqlite database. Three different tables have been created: one to store the contact data (id, firstname, lastname, telephone, email, url, notes), one to store the tags (tagname) and another to associate a tag to a contact (contact_id, tag) 
 
+Table 1:
 | ID | firstname | lastname | telephone | email | url | notes|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  |  |  |  |  |  |  |
 
+Table 2:
 | tagname |
 | :---: |
 |  |
 
+Table 3:
 | ID | tagname|
 | :---: | :---: | 
 |  |  | 
+
+Three models have been created; each one handles a different table of the database. 
+
+---
+## Requirments
+
+Python 3.6.2 has been used to run this project.
+The only package used in this work is PyQt5. You can install it:
+- with pip `pip3 install PyQt5`
+- with anaconda `conda install -c dsdale24 pyqt5`
+
+---
+## Run the project
+
+To run the application:
+- from terminal go to the directory in wich you have downloaded the project
+- go inside the ContactManager-master folder --> `cd ContactManager-master`
+- run the main view with the command `python contactlist_controller.py`
+
 
 
