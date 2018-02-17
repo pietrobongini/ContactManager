@@ -9,14 +9,17 @@ The application consists of 4 different views:
 
 
 |![Fig. 1](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactadder.png)
-|![Fig. 2](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactlist.png)
 |:--:| 
 | *Fig. 1* |
+
+|![Fig. 2](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactlist.png)
+|:--:| 
 | *Fig. 2* |
 
 |![Fig. 3](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactdetails.png)
 |:--:| 
 | *Fig. 3* |
+
 |![Fig. 4](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/tagadder.png)
 |:--:| 
 | *Fig. 4* |
