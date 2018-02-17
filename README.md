@@ -7,5 +7,5 @@ The application consists of 4 different views:
 - contactdetails which allow the user to see/edit the data saved for a specific contact
 - contactadder which allow the user to create a tag that will be associated to a contact.
 
-![alt text](ContactManager/ui_img/contactadder.png)
+![alt text](![alt text](https://github.com/pietrobongini/ContactManager/blob/master/ui_img/contactadder.png)
 
