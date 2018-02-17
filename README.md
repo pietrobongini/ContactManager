@@ -30,6 +30,12 @@ To store the data of the contact we used a sqlite database. three different tabl
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  |  |  |  |  |  |  |
 
+| tagname |
+| :---: |
+|  |
 
+| ID | tagname|
+| :---: | :---: | 
+|  |  | 
 
 
