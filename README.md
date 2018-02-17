@@ -2,7 +2,7 @@
 
 This project is an address book manager application made with Python. The interface is accomplished entirely with PyQt5.
 
-## implementation
+## Implementation
 
 The application consists of 4 different views:
 - contactadder which allows the user to add a contact (Fig. 1).
@@ -42,6 +42,7 @@ To store the data of the contact we used a sqlite database. Three different tabl
 |  |  | 
 
 Three models have been created; each one handles a different table of the database. 
+In the contactlist view Fig. 2 the buttons relative to the contacts are customized buttons. They are made with the Adapter pattern. This pattern adapts the model of the contact with the button class. The Adapter is in the widgetwithmodel.py file.
 
 ---
 ## Requirments
