@@ -1,6 +1,6 @@
 # ContactManager
 
-This project is an address book manager made with Python. The interface is accomplished entirely with PyQt5.
+This project is an address book manager application made with Python. The interface is accomplished entirely with PyQt5.
 
 ## implementation
 
