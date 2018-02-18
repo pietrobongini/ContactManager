@@ -48,7 +48,7 @@ In the contactlist view Fig. 2 the buttons relative to the contacts are customiz
 ## Requirments
 
 Python 3.6.2 has been used to run this project.
-The only package used in this work is PyQt5. You can install it:
+In this project random module, that is part of the Python standard library, is used . PyQt5 is the only package you have to install:
 - with pip `pip3 install PyQt5`
 - with anaconda `conda install -c dsdale24 pyqt5`
 
