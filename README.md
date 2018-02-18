@@ -6,7 +6,7 @@ This project is an address book manager application made with Python. The interf
 
 The application consists of 4 different views:
 - contactadder which allows the user to add a contact (Fig. 1).
-- contactlist which is the main view and displays all the contacts allowing the user to make different search for a specific contact (Fig. 2).
+- contactlist which is the main view and displays all the contacts allowing the user to search for a specific contact in    different ways (Fig. 2).
 - contactdetails which allow the user to see/edit the data saved for a specific contact (Fig. 3).
 - contactadder which allow the user to create a tag that will be associated to a contact (Fig. 4).
 
